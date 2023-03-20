@@ -40,7 +40,7 @@ input[type='text'] {
   display: flex;
   flex-direction: column;
   width: 63px;
-  box-shadow: 10px 6px 8px 5px rgba(241, 190, 21, 0.2);
+  box-shadow: 10px 6px 8px 5px rgba(57, 56, 89, 0.2);
   /* border: 2px solid orange; */
 }
 
