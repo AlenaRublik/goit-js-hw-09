@@ -51,7 +51,6 @@ function handleStartTimer() {
         const currentTime = Date.now();
         const timer = selectedData - currentTime;
         const timerComponents = convertMs(timer);
-        console.log(timerComponents);
         updateClockFace(timerComponents);
         
         if (timer <= 1000) {
