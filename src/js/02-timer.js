@@ -57,6 +57,7 @@ function handleStartTimer() {
             clearInterval(timerId);
         };
     }, 1000)
+    refs.startBtn.disabled = true;
 }
 
 function updateClockFace({ days, hours, minutes, seconds }) {
