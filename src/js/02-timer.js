@@ -51,7 +51,7 @@ refs.startBtn.disabled = true;
         const currentTime = Date.now();
         const timer = selectedData - currentTime;
         const timerComponents = convertMs(timer);
-        if (timer <= 1000) {
+        if (timer <= 0) {
             clearInterval(timerId);
             return;
         };
