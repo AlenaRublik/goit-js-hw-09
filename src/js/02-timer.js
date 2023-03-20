@@ -46,18 +46,18 @@ refs.startBtn.addEventListener('click', handleStartTimer);
 
 
 function handleStartTimer() {
-
+refs.startBtn.disabled = true;
     timerId = setInterval(() => {
         const currentTime = Date.now();
         const timer = selectedData - currentTime;
         const timerComponents = convertMs(timer);
-        updateClockFace(timerComponents);
-        
         if (timer <= 1000) {
             clearInterval(timerId);
+            return;
         };
+        updateClockFace(timerComponents);
     }, 1000)
-    refs.startBtn.disabled = true;
+    
 }
 
 function updateClockFace({ days, hours, minutes, seconds }) {
