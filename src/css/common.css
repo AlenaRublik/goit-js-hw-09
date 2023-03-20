@@ -44,9 +44,9 @@ input[type='text'] {
   /* border: 2px solid orange; */
 }
 
-/* .field:nth-child(-n + 3) {
+.field:nth-child(-n + 3) {
   margin-right: 5px;
-} */
+}
 
 .timer .value {
   border-radius: 25%;
