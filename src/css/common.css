@@ -16,3 +16,54 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/*  */
+
+input[type='text'] {
+  margin-bottom: 2px;
+  border: 3px solid rgb(57, 56, 89);
+  border-radius: 3px;
+  background: #7e71ba;
+  outline: none;
+  height: 55px;
+  width: 250px;
+  color: #ffffff;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 63px;
+  box-shadow: 10px 6px 8px 5px rgba(241, 190, 21, 0.2);
+  /* border: 2px solid orange; */
+}
+
+/* .field:nth-child(-n + 3) {
+  margin-right: 5px;
+} */
+
+.timer .value {
+  border-radius: 25%;
+  background-color: rgb(65, 59, 103);
+  font-size: 32px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  text-align: center;
+}
+
+.timer .label {
+  border-radius: 15%;
+  background-color: rgb(44, 36, 58);
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  text-align: center;
+}
+
+
