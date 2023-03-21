@@ -39,7 +39,7 @@ input[type='text'] {
 .field {
   display: flex;
   flex-direction: column;
-  width: 63px;
+  width: 58px;
   box-shadow: 10px 6px 8px 5px rgba(57, 56, 89, 0.2);
   /* border: 2px solid orange; */
 }
