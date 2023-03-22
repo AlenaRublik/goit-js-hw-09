@@ -18,6 +18,10 @@ function handleFormSubmit(e) {
   const amount = Number(refs.amount.value);
   
   if (delay < 0 || step < 0 || amount < 1) {
+    Notiflix.Report.failure(
+      'Incorrect value',
+      'Enter correct values',
+      'Continue');
     return;
   }
   
